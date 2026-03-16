@@ -1,0 +1,32 @@
+A lambda expression is a short, anonymous function used to implement a functional interface (an interface with exactly one abstract method).Signature interface ke function ko pass krdia jata hai map krwane ke lie 
+
+how to declare lambda expression:
+
+()->{}
+
+******
+
+types of lambda expression.
+1.No parameter,No return value.
+()->{System.out.println("This is lambda func")};
+2.No parameter,with return value.
+()->{ int n1=10,n2=20
+         return (n1+n2);
+         }
+         or 
+()->"lambda express";
+()->20;
+3.with one parameter,with return value.
+
+  (int num)->num+10;
+  (num)->num+10;
+  (num)->num+30;
+
+4.with one parameter,no return value
+(int n1)->System.out.println(n1*n1);
+      n1->System.out.println(n1*n1);
+5.with multiple parameter,no return value
+ (int n1,int n2)->System.out.println("sum of 2 number="+(n1+n2));
+6.with multiple parameter,with return value
+ (int n1,int n2)->n1+n2;
+
