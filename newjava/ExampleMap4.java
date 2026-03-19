@@ -10,5 +10,6 @@ public class ExampleMap4 {
         System.out.println(list);
         List<String> grace5=list.stream().map(m->"Item-"+m).toList();
         System.out.println(grace5);
+        .
     }
 }
