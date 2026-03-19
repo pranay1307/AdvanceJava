@@ -11,4 +11,4 @@ public class ExampleMap4 {
         List<String> grace5=list.stream().map(m->"Item-"+m).toList();
         System.out.println(grace5);
     }
-}
+}mnjkhb
